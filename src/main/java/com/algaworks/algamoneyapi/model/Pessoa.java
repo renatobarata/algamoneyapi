@@ -11,9 +11,11 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
 @Entity
 @Table(name = "pessoa")
+@JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class Pessoa {
 
 	@Id
