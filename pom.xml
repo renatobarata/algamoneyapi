@@ -96,11 +96,12 @@
     		<version>1.1.0.RELEASE</version>
 		</dependency>
 		
-		<!-- Hibernate Modelgen - Meta Model -->
+		<!-- Hibernate Modelgen - Meta Model 
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-jpamodelgen</artifactId>
 		</dependency>
+		-->
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
